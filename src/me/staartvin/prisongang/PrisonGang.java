@@ -20,7 +20,6 @@ import org.bukkit.plugin.java.JavaPlugin;
 
 public class PrisonGang extends JavaPlugin {
 
-	// Test push for jenkins 2
 	private ConfigWrapper gangDataFile = new ConfigWrapper(this, "/data", "gangs.yml");
 	private ConfigWrapper playerDataFile = new ConfigWrapper(this, "/data", "playerdata.yml");
 	private ConfigWrapper messagesFile = new ConfigWrapper(this, "", "messages.yml");
@@ -196,9 +195,5 @@ public class PrisonGang extends JavaPlugin {
 
 	public MainConfig getMainConfig() {
 		return mainConfigHandler;
-	}
-	
-	public void testMethod() {
-		
 	}
 }
