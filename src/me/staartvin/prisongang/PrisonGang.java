@@ -197,4 +197,8 @@ public class PrisonGang extends JavaPlugin {
 	public MainConfig getMainConfig() {
 		return mainConfigHandler;
 	}
+	
+	public void testMethod() {
+		
+	}
 }
